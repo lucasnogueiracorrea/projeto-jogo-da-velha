@@ -227,13 +227,14 @@ for (let i = 0; i < boxes.length; i++) {
             textoVelha.removeAttribute("class","hide");
 
             setTimeout(function () {
-                boxMensagem.setAttribute("class", "hide-mensagem");
-            }, 3000);
+                textoVelha.setAttribute("class", "hide");
+            }, 2000);
 
             player1 = 0;
             player2 = 0;
             
             limparTabuleiro();
+
         }
 
     }
@@ -254,7 +255,7 @@ for (let i = 0; i < boxes.length; i++) {
 
         setTimeout(function () {
             boxMensagem.setAttribute("class", "hide");
-        }, 3000);
+        }, 2000);
 
         player1 = 0;
         player2 = 0;
