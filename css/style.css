@@ -179,6 +179,27 @@ body{
     display: none !important;
 }
 
+#roda-pe{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(30, 26, 51);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#roda-pe > p > a{
+    text-decoration: none;
+    color: white;
+}
+
+#roda-pe > p > a:hover{
+    color: rgb(212, 18, 89);
+    text-decoration: underline;
+}
+
 
 
 /*responsive*/
@@ -191,7 +212,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 25px;
         background-color: white;
         padding: 10px;
         border-top-left-radius: 15px;
@@ -252,7 +273,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 25px;
         background-color: white;
         padding: 10px;
         border-top-left-radius: 15px;
@@ -314,7 +335,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 25px;
         background-color: white;
         padding: 10px;
         border-top-left-radius: 15px;
@@ -389,7 +410,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 45px;
+        margin-top: 25px;
         background-color: white;
         padding: 10px;
         border-top-left-radius: 15px;
