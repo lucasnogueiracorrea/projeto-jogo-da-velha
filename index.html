@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="js/app.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <!--inicio cabecalho-->
+    <header id="cabecalho">
+        <div id="box-cabecalho">
+            <h1 id="titulo-principal">Jogo da velha</h1>
+            <ul id="social-midia">
+                <li> <!--rede social LINKEDIN-->
+                    <a href="https://www.linkedin.com/in/lucass-correa/" target="_blank">
+                        <img src="img/linkedin.png" alt="LinkedIn">
+                    </a>
+                </li>
+                <li> <!--rede social INSTAGRAM-->
+                    <a href="https://www.instagram.com/lucascorrearj/" target="_blank">
+                        <img src="img/instagram.png" alt="Instagram">
+                    </a>
+                </li>
+                <li> <!--whatsapp WEB-->
+                    <a href="https://wa.me/5521975176561" target="_blank">
+                        <img src="img/whatsapp.png" alt="Whatsapp">
+                    </a>
+                </li>
+                <li> <!--whatsapp WEB-->
+                    <a href="https://github.com/lucasnogueiracorrea" target="_blank">
+                        <img src="img/github.png" alt="github">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!--final cabecalho-->
+
+    <!--inicio conteudo-principal-->
+    <main id="conteudo-principal">
+        <!--Tabuleiro do jogo-->
+        <div id="box-principal">
+            <div class="box-game" id="block-1"></div>
+            <div class="box-game" id="block-2"></div>   
+            <div class="box-game" id="block-3"></div>
+            <div class="box-game" id="block-4"></div>
+            <div class="box-game" id="block-5"></div>
+            <div class="box-game" id="block-6"></div>
+            <div class="box-game" id="block-7"></div>
+            <div class="box-game" id="block-8"></div>
+            <div class="box-game" id="block-9"></div>
+            <span id="spanDeuVelha" class="hide"><p>Deu velha!</p></span>
+        </div> 
+        <!--Placar do jogo-->
+        <div id="placar-conteiner">
+            <span class="placar-box">
+                <span id="x-placar">X</span>:
+                <span id="placar-1">0</span>
+            </span>
+            <span class="placar-box">
+                <span id="o-placar"></span>:
+                <span id="placar-2">0</span>
+            </span>
+        </div> 
+        <!--jogador X ou O-->
+        <div id="elementos" class="hide">
+            <div class="x">X</div>
+            <div class="o"></div>
+        </div>
+        <!--mensagem ao final da partida-->
+        <div id="mensagem" class="hide-mensagem">
+            <p></p>
+        </div>
+    </main>
+    <!--final conteudo-principal-->
+
+
+</body>
+</html>
